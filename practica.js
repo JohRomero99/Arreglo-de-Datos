@@ -15,7 +15,7 @@ do{
         j++;
     }
 
-    respuesta = prompt("¿Deseas Ingresar mas Notas?");
+    respuesta = prompt("¿Deseas Ingresar mas Datos?");
     // document.write(i +"<br>");
     // document.write(num +"<br>");
 
@@ -23,7 +23,6 @@ do{
         i = num;
         num = num + 3;
     }
-
 
 }while(respuesta == "si")
 
